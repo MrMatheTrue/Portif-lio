@@ -3,7 +3,7 @@
 > FullStack Developer especializado em resolver problemas reais através de engenharia de software, automação e dados.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-blue)](https://www.linkedin.com/in/matheus-de-paula-a547161a6)
-[![GitHub](https://img.shields.io/badge/GitHub-Seguir-black)]((https://github.com/MrMatheTrue/Portif-lio))
+[![GitHub](https://img.shields.io/badge/GitHub-Seguir-black)](https://github.com/MrMatheTrue/Portif-lio)
 [![Email](https://img.shields.io/badge/Email-Contato-red)](mailto:mr.matheussantos12@gmail.com)
 
 ---
