@@ -1,4 +1,0 @@
-/videos/sistema-sla.mp4
-videos/mondaytasks.mp4
-/videos/etomic.mp4
-/videos/tg-connect.mp4
