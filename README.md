@@ -31,7 +31,7 @@
 | Uptime | 92% | 99.8% | **+7.8%** |
 
 #### 🎥 Demonstração
-[▶️ Assistir vídeo completo](./videos/sistema-sla.mp4)
+[▶️ Assistir vídeo completo](https://www.youtube.com/watch?v=ukHSE5d1Gyc)
 
 **Lições Aprendidas**:
 - Otimize na camada de dados primeiro
@@ -62,7 +62,7 @@
 | Rastreabilidade | 0% | 100% | **Novo** |
 
 #### 🎥 Demonstração
-[▶️ Assistir vídeo completo](./videos/mondaytasks.mp4)
+[▶️ Assistir vídeo completo](https://www.youtube.com/watch?v=kWSzTcM1YIQ)
 
 **Lições Aprendidas**:
 - Construa a partir de problemas reais, não modelos genéricos
@@ -93,7 +93,7 @@
 | ROI de mídia | 2.1x | 4.7x | **+124%** |
 
 #### 🎥 Demonstração
-[▶️ Assistir vídeo completo](./videos/etomic.mp4)
+[▶️ Assistir vídeo completo](https://www.youtube.com/watch?v=XuHFTJC2S0k)
 
 **Lições Aprendidas**:
 - Performance técnica impacta diretamente conversão (0.1s = +8%)
@@ -125,7 +125,7 @@
 | Satisfação orientadores | 3.2/5 | 4.7/5 | **+47%** |
 
 #### 🎥 Demonstração
-[▶️ Assistir vídeo completo](./videos/tg-connect.mp4)
+[▶️ Assistir vídeo completo](https://www.youtube.com/watch?v=61uyiyVtw2M)
 
 **Lições Aprendidas**:
 - Versionamento próprio (v1, v2, v3) é mais intuitivo que Git para usuários finais
