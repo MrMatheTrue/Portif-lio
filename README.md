@@ -17,9 +17,9 @@
 **Solução**: Refatoração completa com otimização de SQL Server, gestão de memória e processamento inteligente de dados.
 
 #### 🛠️ Stack Técnico
-- **Backend**: SQL Server, T-SQL, Stored Procedures
+- **Backend**: C#, SQL Server, T-SQL, Stored Procedures
 - **Otimização**: LAG() Window Functions, Garbage Collection explícito
-- **Frontend**: JavaScript, CSS3 Glassmorphism
+- **Frontend**: HTML, JavaScript, CSS3 Glassmorphism
 - **Performance**: Indexes estratégicos, transações ACID
 
 #### 📊 Resultados
@@ -47,7 +47,7 @@
 **Solução**: Plataforma centralizadora que automatiza fluxos e transforma dados soltos em decisões claras.
 
 #### 🛠️ Stack Técnico
-- **Backend**: Node.js 18+, Express.js 4.18+, JavaScript ES6+
+- **Backend**: C#, Node.js 18+, Express.js 4.18+, JavaScript ES6+
 - **Banco de Dados**: SQL Server 2019+, Modelagem Relacional 3FN
 - **APIs**: REST API, JSON, Endpoints bem definidos
 - **Automação**: Event-Driven Architecture, Workflows Backend
