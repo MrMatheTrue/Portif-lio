@@ -137,6 +137,7 @@
 ## 🚀 Tecnologias Recorrentes
 
 ### Backend
+- C# + ASP.NET(4.0)
 - Node.js + Express.js
 - Java 21 + JavaFX
 - SQL Server + MySQL
