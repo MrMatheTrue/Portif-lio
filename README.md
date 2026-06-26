@@ -134,12 +134,49 @@
 
 ---
 
+### 5️⃣ FlowTrack - Sistema de Gestão de Frota para Órgão Público
+
+**Problema**: O IPEM – Regional de São José dos Campos controlava o uso e abastecimento de viaturas 100% via pranchetas físicas dentro dos veículos. Técnicos preenchiam manualmente KM, litros, valor, número de NF e horários. O diretor precisava consolidar tudo manualmente para inserção no SGI (Sistema de Gestão Integrado), processo sujeito a erros, perda de dados e sem nenhuma rastreabilidade ou análise gerencial.
+
+**Solução**: Plataforma web completa que digitalizou o ciclo inteiro da viatura — do cadastro ao relatório mensal — com controle de acesso por perfil, comprovação de despesas por NF, histórico auditável e dashboard de KPIs para apoio à decisão gerencial.
+
+#### 🛠️ Stack Técnico
+- **Backend**: Java 21, Spring Boot 4.x, JPA/Hibernate, Lombok, REST API
+- **Banco de Dados**: MySQL 8, modelagem relacional normalizada até 3FN, schema.sql versionado
+- **Frontend**: HTML5, CSS3, JavaScript ES6+ (Vanilla, sem framework)
+- **Autenticação**: Controle de acesso por perfil (Admin / Técnico), envio de credenciais via Gmail SMTP
+- **Integrações**: ViaCEP API, OpenLayers + Nominatim (geolocalização)
+- **DevOps**: Git, GitHub, Jira (sprints), commits convencionais
+- **Metodologia**: Scrum — 3 sprints com Review e Planning, DoR e DoD definidos
+
+#### 📊 Resultados
+| Métrica | Antes | Depois | Melhoria |
+|---------|-------|--------|----------|
+| Processo de registro | 100% manual (prancheta) | 100% digital | **Digitalizado** |
+| Rastreabilidade por viatura | 0% | 100% | **Novo** |
+| Tempo de consolidação mensal | Dias (manual) | Minutos (relatório gerado) | **~95% mais rápido** |
+| Controle de manutenção preventiva | Inexistente | Automático por KM | **Novo** |
+| Visibilidade gerencial (KPIs) | Nenhuma | Dashboard em tempo real | **Novo** |
+| User Stories entregues | — | 9 de 9 | **100%** |
+
+#### 🎥 Demonstração
+[▶️ Assistir vídeo completo](https://youtu.be/_oIq27PHHwo)
+
+**Lições Aprendidas**:
+- Processos de governo têm restrições específicas — o sistema precisou se adaptar ao fluxo real do SGI, não o contrário
+- Constructor injection (`@RequiredArgsConstructor`) e separação clara de camadas aceleram refatoração em equipe
+- `ddl-auto=none` com `schema.sql` versionado no repositório garante rastreabilidade das mudanças de banco
+- Gmail SMTP exige App Password — senha de conta regular não funciona em aplicações backend
+- Entregar o fluxo principal primeiro (registro de abastecimento) e evoluir iterativamente foi decisivo para manter o cliente validando a cada sprint
+
+---
+
 ## 🚀 Tecnologias Recorrentes
 
 ### Backend
-- C# + ASP.NET(4.0)
+- C# + ASP.NET (4.0)
 - Node.js + Express.js
-- Java 21 + JavaFX
+- Java 21 + Spring Boot + JavaFX
 - SQL Server + MySQL
 - REST APIs
 
@@ -166,9 +203,9 @@
 ## 📫 Contato
 
 **Matheus** - FullStack Developer  
-💼 [LinkedIn]((https://www.linkedin.com/in/matheus-de-paula-a547161a6))  
-💻 [GitHub]((https://github.com/MrMatheTrue/Portif-lio))  
-📧 [Email](mr.matheussantos12@gmail.com)
+💼 [LinkedIn](https://www.linkedin.com/in/matheus-de-paula-a547161a6)  
+💻 [GitHub](https://github.com/MrMatheTrue/Portif-lio)  
+📧 [Email](mailto:mr.matheussantos12@gmail.com)
 
 ---
 
@@ -180,9 +217,10 @@ portfolio-tecnico/
     ├── sistema-sla.mp4
     ├── mondaytasks.mp4
     ├── etomic.mp4
-    └── tg-connect.mp4
+    ├── tg-connect.mp4
+    └── flowtrack.mp4
 ```
 
 ---
 
-**Última atualização**: Janeiro 2026
+**Última atualização**: Junho 2026
